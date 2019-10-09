@@ -67,7 +67,7 @@ class App extends Component {
       const wordsArray = result.split(' ');
 
       const words = wordsArray.map(word => ({word: word, bold: false, underlined: false, itallic: false, color: '#333'}));
-      this.setState({ words: wofdsafdsafjklrds });
+      this.setState({ words: words });
     });
   }
 
