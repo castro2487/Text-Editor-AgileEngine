@@ -1,0 +1,73 @@
+.control-panel {
+  background-color: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+  position: relative;
+}
+
+#format-actions {
+  margin-right: 400px;
+  width: 500px;
+  margin-right: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.format-action {
+  width: 38px;
+  height: 27px;
+  background-color: white;
+  outline: none;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.format-action.color {
+  width: 60px;
+}
+
+.format-action.active {
+  background: #e3ffbe;
+}
+
+.synonyms{
+  position: absolute;
+  right: 10%;
+  top: 64px;
+  min-width: 215px;
+}
+
+.synonyms .label {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.synonyms .box {
+  background: white;
+  padding: 11px;
+  box-shadow: 0px 4px 9px 1px rgba(179,179,179,1);
+  max-height: 553px;
+  overflow-y: scroll;
+}
+
+.synonyms .syn {
+  margin-bottom: 5px;
+}
+
+.color-picker {
+  position: absolute;
+  background: white;
+  border: 1px solid #333;
+  border-radius: 3px;
+  right: 30%;
+}
+
+.color-picker .reset {
+  position: relative;
+  top: -9px;
+  right: 15px;
+}

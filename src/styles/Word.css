@@ -1,0 +1,15 @@
+.word {
+  padding-right: 4px;
+}
+
+.word.bold {
+  font-weight: 600;
+}
+
+.word.itallic {
+  font-style: italic;
+}
+
+.word.underlined {
+  text-decoration: underline;
+}
